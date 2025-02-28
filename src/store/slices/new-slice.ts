@@ -1,5 +1,5 @@
+import { NewsItem } from "@/types/news";
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { NewsItem } from "src/pages/news";
 interface NewsState {
   items: NewsItem[];
   pageNumber: any;
