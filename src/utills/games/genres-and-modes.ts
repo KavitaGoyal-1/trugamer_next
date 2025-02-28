@@ -1,0 +1,37 @@
+const gamesSettingsData = {
+  genres: [
+    "Point-and-click",
+    "Fighting",
+    "Shooter",
+    "Music",
+    "Platform",
+    "Puzzle",
+    "Racing",
+    "Real Time Strategy (RTS)",
+    "Role-playing (RPG)",
+    "Simulator",
+    "Sport",
+    "Strategy",
+    "Turn-based strategy (TBS)",
+    "Tactical",
+    "Hack and slash/Beat 'em up",
+    "Quiz/Trivia",
+    "Pinball",
+    "Adventure",
+    "Indie",
+    "Arcade",
+    "Visual Novel",
+    "Card & Board Game",
+    "MOBA",
+  ],
+  gamemodes: [
+    "Single player",
+    "Multiplayer",
+    "Co-operative",
+    "Split screen",
+    "Massively Multiplayer Online (MMO)",
+    "Battle Royale",
+  ],
+};
+
+export default gamesSettingsData;

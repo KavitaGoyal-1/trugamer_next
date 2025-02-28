@@ -1,0 +1,868 @@
+{
+    "devicesData": [
+        {
+            "label": "Atari Jaguar",
+            "key": "Atari Jaguar"
+        },
+        {
+            "label": "Panasonic Jungle",
+            "key": "Panasonic Jungle"
+        },
+        {
+            "label": "Uzebox",
+            "key": "Uzebox"
+        },
+        {
+            "label": "AY-3-8607",
+            "key": "AY-3-8607"
+        },
+        {
+            "label": "Atari 8-bit",
+            "key": "Atari 8-bit"
+        },
+        {
+            "label": "PC Engine SuperGrafx",
+            "key": "PC Engine SuperGrafx"
+        },
+        {
+            "label": "Microvision",
+            "key": "Microvision"
+        },
+        {
+            "label": "PlayStation 2",
+            "key": "PlayStation 2"
+        },
+        {
+            "label": "PC",
+            "key": "PC"
+        },
+        {
+            "label": "Dreamcast",
+            "key": "Dreamcast"
+        },
+        {
+            "label": "Sega Game Gear",
+            "key": "Sega Game Gear"
+        },
+        {
+            "label": "Tapwave Zodiac",
+            "key": "Tapwave Zodiac"
+        },
+        {
+            "label": "Odyssey",
+            "key": "Odyssey"
+        },
+        {
+            "label": "Commodore Plus/4",
+            "key": "Commodore Plus/4"
+        },
+        {
+            "label": "WonderSwan Color",
+            "key": "WonderSwan Color"
+        },
+        {
+            "label": "Acorn Electron",
+            "key": "Acorn Electron"
+        },
+        {
+            "label": "Texas Instruments TI-99",
+            "key": "Texas Instruments TI-99"
+        },
+        {
+            "label": "Odyssey 2 / Videopac G7000",
+            "key": "Odyssey 2 / Videopac G7000"
+        },
+        {
+            "label": "Hyper Neo Geo 64",
+            "key": "Hyper Neo Geo 64"
+        },
+        {
+            "label": "Neo Geo CD",
+            "key": "Neo Geo CD"
+        },
+        {
+            "label": "PC-50X Family",
+            "key": "PC-50X Family"
+        },
+        {
+            "label": "AY-3-8710",
+            "key": "AY-3-8710"
+        },
+        {
+            "label": "AY-3-8605",
+            "key": "AY-3-8605"
+        },
+        {
+            "label": "AY-3-8606",
+            "key": "AY-3-8606"
+        },
+        {
+            "label": "PC-9800 Series",
+            "key": "PC-9800 Series"
+        },
+        {
+            "label": "Turbografx-16/PC Engine CD",
+            "key": "Turbografx-16/PC Engine CD"
+        },
+        {
+            "label": "Elektor TV Games Computer",
+            "key": "Elektor TV Games Computer"
+        },
+        {
+            "label": "Thomson MO5",
+            "key": "Thomson MO5"
+        },
+        {
+            "label": "Commodore CDTV",
+            "key": "Commodore CDTV"
+        },
+        {
+            "label": "SteamVR",
+            "key": "SteamVR"
+        },
+        {
+            "label": "Sol-20",
+            "key": "Sol-20"
+        },
+        {
+            "label": "DOS",
+            "key": "DOS"
+        },
+        {
+            "label": "Game Boy Advance",
+            "key": "Game Boy Advance"
+        },
+        {
+            "label": "Sega 32X",
+            "key": "Sega 32X"
+        },
+        {
+            "label": "Donner Model 30",
+            "key": "Donner Model 30"
+        },
+        {
+            "label": "Neo Geo Pocket",
+            "key": "Neo Geo Pocket"
+        },
+        {
+            "label": "Wii U",
+            "key": "Wii U"
+        },
+        {
+            "label": "MSX2",
+            "key": "MSX2"
+        },
+        {
+            "label": "AY-3-8500",
+            "key": "AY-3-8500"
+        },
+        {
+            "label": "AY-3-8760",
+            "key": "AY-3-8760"
+        },
+        {
+            "label": "Atari 7800",
+            "key": "Atari 7800"
+        },
+        {
+            "label": "Vectrex",
+            "key": "Vectrex"
+        },
+        {
+            "label": "AY-3-8603",
+            "key": "AY-3-8603"
+        },
+        {
+            "label": "Sharp X1",
+            "key": "Sharp X1"
+        },
+        {
+            "label": "Sega CD",
+            "key": "Sega CD"
+        },
+        {
+            "label": "Virtual Boy",
+            "key": "Virtual Boy"
+        },
+        {
+            "label": "PDP-8",
+            "key": "PDP-8"
+        },
+        {
+            "label": "DEC GT40",
+            "key": "DEC GT40"
+        },
+        {
+            "label": "Ferranti Nimrod Computer",
+            "key": "Ferranti Nimrod Computer"
+        },
+        {
+            "label": "PDP-11",
+            "key": "PDP-11"
+        },
+        {
+            "label": "CDC Cyber 70",
+            "key": "CDC Cyber 70"
+        },
+        {
+            "label": "Microcomputer",
+            "key": "Microcomputer"
+        },
+        {
+            "label": "OnLive Game System",
+            "key": "OnLive Game System"
+        },
+        {
+            "label": "Apple IIGS",
+            "key": "Apple IIGS"
+        },
+        {
+            "label": "Neo Geo Pocket Color",
+            "key": "Neo Geo Pocket Color"
+        },
+        {
+            "label": "SwanCrystal",
+            "key": "SwanCrystal"
+        },
+        {
+            "label": "PC-8800 Series",
+            "key": "PC-8800 Series"
+        },
+        {
+            "label": "Fairchild Channel F",
+            "key": "Fairchild Channel F"
+        },
+        {
+            "label": "Amazon Fire TV",
+            "key": "Amazon Fire TV"
+        },
+        {
+            "label": "VC 4000",
+            "key": "VC 4000"
+        },
+        {
+            "label": "1292 Advanced Programmable Video System",
+            "key": "1292 Advanced Programmable Video System"
+        },
+        {
+            "label": "Dragon 32/64",
+            "key": "Dragon 32/64"
+        },
+        {
+            "label": "Amstrad PCW",
+            "key": "Amstrad PCW"
+        },
+        {
+            "label": "Tatung Einstein",
+            "key": "Tatung Einstein"
+        },
+        {
+            "label": "Satellaview",
+            "key": "Satellaview"
+        },
+        {
+            "label": "Game & Watch",
+            "key": "Game & Watch"
+        },
+        {
+            "label": "Playdia",
+            "key": "Playdia"
+        },
+        {
+            "label": "Super NES CD-ROM System",
+            "key": "Super NES CD-ROM System"
+        },
+        {
+            "label": "PlayStation 3",
+            "key": "PlayStation 3"
+        },
+        {
+            "label": "Atari Lynx",
+            "key": "Atari Lynx"
+        },
+        {
+            "label": "Xbox",
+            "key": "Xbox"
+        },
+        {
+            "label": "Commodore C64/128/MAX",
+            "key": "Commodore C64/128/MAX"
+        },
+        {
+            "label": "Nintendo Entertainment System",
+            "key": "Nintendo Entertainment System"
+        },
+        {
+            "label": "Atari 5200",
+            "key": "Atari 5200"
+        },
+        {
+            "label": "Imlac PDS-1",
+            "key": "Imlac PDS-1"
+        },
+        {
+            "label": "Game Boy Color",
+            "key": "Game Boy Color"
+        },
+        {
+            "label": "Sega Saturn",
+            "key": "Sega Saturn"
+        },
+        {
+            "label": "PlayStation Vita",
+            "key": "PlayStation Vita"
+        },
+        {
+            "label": "Intellivision",
+            "key": "Intellivision"
+        },
+        {
+            "label": "BlackBerry OS",
+            "key": "BlackBerry OS"
+        },
+        {
+            "label": "TurboGrafx-16/PC Engine",
+            "key": "TurboGrafx-16/PC Engine"
+        },
+        {
+            "label": "Amiga CD32",
+            "key": "Amiga CD32"
+        },
+        {
+            "label": "Acorn Archimedes",
+            "key": "Acorn Archimedes"
+        },
+        {
+            "label": "Philips CD-i",
+            "key": "Philips CD-i"
+        },
+        {
+            "label": "FM Towns",
+            "key": "FM Towns"
+        },
+        {
+            "label": "Sharp X68000",
+            "key": "Sharp X68000"
+        },
+        {
+            "label": "Nuon",
+            "key": "Nuon"
+        },
+        {
+            "label": "AY-3-8610",
+            "key": "AY-3-8610"
+        },
+        {
+            "label": "FM-7",
+            "key": "FM-7"
+        },
+        {
+            "label": "NEC PC-6000 Series",
+            "key": "NEC PC-6000 Series"
+        },
+        {
+            "label": "Oculus VR",
+            "key": "Oculus VR"
+        },
+        {
+            "label": "Nintendo DS",
+            "key": "Nintendo DS"
+        },
+        {
+            "label": "WonderSwan",
+            "key": "WonderSwan"
+        },
+        {
+            "label": "BBC Microcomputer System",
+            "key": "BBC Microcomputer System"
+        },
+        {
+            "label": "Commodore VIC-20",
+            "key": "Commodore VIC-20"
+        },
+        {
+            "label": "Sega Pico",
+            "key": "Sega Pico"
+        },
+        {
+            "label": "Game.com",
+            "key": "Game.com"
+        },
+        {
+            "label": "Intellivision Amico",
+            "key": "Intellivision Amico"
+        },
+        {
+            "label": "Oculus Go",
+            "key": "Oculus Go"
+        },
+        {
+            "label": "Sharp MZ-2200",
+            "key": "Sharp MZ-2200"
+        },
+        {
+            "label": "Windows Phone",
+            "key": "Windows Phone"
+        },
+        {
+            "label": "Neo Geo MVS",
+            "key": "Neo Geo MVS"
+        },
+        {
+            "label": "Gear VR",
+            "key": "Gear VR"
+        },
+        {
+            "label": "Neo Geo AES",
+            "key": "Neo Geo AES"
+        },
+        {
+            "label": "Epoch Cassette Vision",
+            "key": "Epoch Cassette Vision"
+        },
+        {
+            "label": "Epoch Super Cassette Vision",
+            "key": "Epoch Super Cassette Vision"
+        },
+        {
+            "label": "SG-1000",
+            "key": "SG-1000"
+        },
+        {
+            "label": "Bally Astrocade",
+            "key": "Bally Astrocade"
+        },
+        {
+            "label": "Google Stadia",
+            "key": "Google Stadia"
+        },
+        {
+            "label": "Plug & Play",
+            "key": "Plug & Play"
+        },
+        {
+            "label": "Oculus Quest",
+            "key": "Oculus Quest"
+        },
+        {
+            "label": "Oculus Rift",
+            "key": "Oculus Rift"
+        },
+        {
+            "label": "Nintendo GameCube",
+            "key": "Nintendo GameCube"
+        },
+        {
+            "label": "Game Boy",
+            "key": "Game Boy"
+        },
+        {
+            "label": "N-Gage",
+            "key": "N-Gage"
+        },
+        {
+            "label": "Commodore 16",
+            "key": "Commodore 16"
+        },
+        {
+            "label": "PDP-10",
+            "key": "PDP-10"
+        },
+        {
+            "label": "Windows Mixed Reality",
+            "key": "Windows Mixed Reality"
+        },
+        {
+            "label": "Terebikko / See 'n Say Video Phone",
+            "key": "Terebikko / See 'n Say Video Phone"
+        },
+        {
+            "label": "PlayStation 5",
+            "key": "PlayStation 5"
+        },
+        {
+            "label": "3DO Interactive Multiplayer",
+            "key": "3DO Interactive Multiplayer"
+        },
+        {
+            "label": "New Nintendo 3DS",
+            "key": "New Nintendo 3DS"
+        },
+        {
+            "label": "Sega Master System/Mark III",
+            "key": "Sega Master System/Mark III"
+        },
+        {
+            "label": "PC-FX",
+            "key": "PC-FX"
+        },
+        {
+            "label": "Evercade",
+            "key": "Evercade"
+        },
+        {
+            "label": "Playdate",
+            "key": "Playdate"
+        },
+        {
+            "label": "PDP-1",
+            "key": "PDP-1"
+        },
+        {
+            "label": "PLATO",
+            "key": "PLATO"
+        },
+        {
+            "label": "OOParts",
+            "key": "OOParts"
+        },
+        {
+            "label": "Gamate",
+            "key": "Gamate"
+        },
+        {
+            "label": "Casio Loopy",
+            "key": "Casio Loopy"
+        },
+        {
+            "label": "Analogue electronics",
+            "key": "Analogue electronics"
+        },
+        {
+            "label": "Panasonic M2",
+            "key": "Panasonic M2"
+        },
+        {
+            "label": "Exidy Sorcerer",
+            "key": "Exidy Sorcerer"
+        },
+        {
+            "label": "ZX Spectrum",
+            "key": "ZX Spectrum"
+        },
+        {
+            "label": "EDSAC",
+            "key": "EDSAC"
+        },
+        {
+            "label": "PDP-7",
+            "key": "PDP-7"
+        },
+        {
+            "label": "MSX",
+            "key": "MSX"
+        },
+        {
+            "label": "HP 2100",
+            "key": "HP 2100"
+        },
+        {
+            "label": "Pokémon mini",
+            "key": "Pokémon mini"
+        },
+        {
+            "label": "HP 3000",
+            "key": "HP 3000"
+        },
+        {
+            "label": "SDS Sigma 7",
+            "key": "SDS Sigma 7"
+        },
+        {
+            "label": "Nintendo 3DS",
+            "key": "Nintendo 3DS"
+        },
+        {
+            "label": "PlayStation Portable",
+            "key": "PlayStation Portable"
+        },
+        {
+            "label": "Call-A-Computer time-shared mainframe computer system",
+            "key": "Call-A-Computer time-shared mainframe computer system"
+        },
+        {
+            "label": "TRS-80 Color Computer",
+            "key": "TRS-80 Color Computer"
+        },
+        {
+            "label": "Daydream",
+            "key": "Daydream"
+        },
+        {
+            "label": "Xbox Series X|S",
+            "key": "Xbox Series X|S"
+        },
+        {
+            "label": "DUPLICATE Stadia",
+            "key": "DUPLICATE Stadia"
+        },
+        {
+            "label": "DVD Player",
+            "key": "DVD Player"
+        },
+        {
+            "label": "Blu-ray Player",
+            "key": "Blu-ray Player"
+        },
+        {
+            "label": "Zeebo",
+            "key": "Zeebo"
+        },
+        {
+            "label": "Meta Quest 2",
+            "key": "Meta Quest 2"
+        },
+        {
+            "label": "Family Computer",
+            "key": "Family Computer"
+        },
+        {
+            "label": "PlayStation VR",
+            "key": "PlayStation VR"
+        },
+        {
+            "label": "Windows Mobile",
+            "key": "Windows Mobile"
+        },
+        {
+            "label": "AirConsole",
+            "key": "AirConsole"
+        },
+        {
+            "label": "PlayStation VR2",
+            "key": "PlayStation VR2"
+        },
+        {
+            "label": "Sinclair QL",
+            "key": "Sinclair QL"
+        },
+        {
+            "label": "HyperScan",
+            "key": "HyperScan"
+        },
+        {
+            "label": "Mega Duck/Cougar Boy",
+            "key": "Mega Duck/Cougar Boy"
+        },
+        {
+            "label": "Atari Jaguar CD",
+            "key": "Atari Jaguar CD"
+        },
+        {
+            "label": "Handheld Electronic LCD",
+            "key": "Handheld Electronic LCD"
+        },
+        {
+            "label": "Legacy Computer",
+            "key": "Legacy Computer"
+        },
+        {
+            "label": "Leapster",
+            "key": "Leapster"
+        },
+        {
+            "label": "LeapTV",
+            "key": "LeapTV"
+        },
+        {
+            "label": "Leapster Explorer/LeadPad Explorer",
+            "key": "Leapster Explorer/LeadPad Explorer"
+        },
+        {
+            "label": "Arduboy",
+            "key": "Arduboy"
+        },
+        {
+            "label": "Watara/QuickShot Supervision",
+            "key": "Watara/QuickShot Supervision"
+        },
+        {
+            "label": "V.Smile",
+            "key": "V.Smile"
+        },
+        {
+            "label": "PocketStation",
+            "key": "PocketStation"
+        },
+        {
+            "label": "Palm OS",
+            "key": "Palm OS"
+        },
+        {
+            "label": "PlayStation",
+            "key": "PlayStation"
+        },
+        {
+            "label": "64DD",
+            "key": "64DD"
+        },
+        {
+            "label": "Amiga",
+            "key": "Amiga"
+        },
+        {
+            "label": "Meta Quest 3",
+            "key": "Meta Quest 3"
+        },
+        {
+            "label": "Super A'Can",
+            "key": "Super A'Can"
+        },
+        {
+            "label": "Virtual Console",
+            "key": "Virtual Console"
+        },
+        {
+            "label": "Visual Memory Unit / Visual Memory System",
+            "key": "Visual Memory Unit / Visual Memory System"
+        },
+        {
+            "label": "visionOS",
+            "key": "visionOS"
+        },
+        {
+            "label": "Arcadia 2001",
+            "key": "Arcadia 2001"
+        },
+        {
+            "label": "Family Computer Disk System",
+            "key": "Family Computer Disk System"
+        },
+        {
+            "label": "Gizmondo",
+            "key": "Gizmondo"
+        },
+        {
+            "label": "Amstrad CPC",
+            "key": "Amstrad CPC"
+        },
+        {
+            "label": "Arcade",
+            "key": "Arcade"
+        },
+        {
+            "label": "Sega Mega Drive/Genesis",
+            "key": "Sega Mega Drive/Genesis"
+        },
+        {
+            "label": "Atari 2600",
+            "key": "Atari 2600"
+        },
+        {
+            "label": "ColecoVision",
+            "key": "ColecoVision"
+        },
+        {
+            "label": "R-Zone",
+            "key": "R-Zone"
+        },
+        {
+            "label": "Apple Pippin",
+            "key": "Apple Pippin"
+        },
+        {
+            "label": "Tomy Tutor / Pyuta / Grandstand Tutor",
+            "key": "Tomy Tutor / Pyuta / Grandstand Tutor"
+        },
+        {
+            "label": "Digiblast",
+            "key": "Digiblast"
+        },
+        {
+            "label": "PlayStation 4",
+            "key": "PlayStation 4"
+        },
+        {
+            "label": "Xbox 360",
+            "key": "Xbox 360"
+        },
+        {
+            "label": "Android",
+            "key": "Android"
+        },
+        {
+            "label": "Sega CD 32X",
+            "key": "Sega CD 32X"
+        },
+        {
+            "label": "Xbox One",
+            "key": "Xbox One"
+        },
+        {
+            "label": "Linux",
+            "key": "Linux"
+        },
+        {
+            "label": "Nintendo 64",
+            "key": "Nintendo 64"
+        },
+        {
+            "label": "Legacy Mobile Device",
+            "key": "Legacy Mobile Device"
+        },
+        {
+            "label": "Wii",
+            "key": "Wii"
+        },
+        {
+            "label": "Super Nintendo Entertainment System",
+            "key": "Super Nintendo Entertainment System"
+        },
+        {
+            "label": "iOS",
+            "key": "iOS"
+        },
+        {
+            "label": "Super Famicom",
+            "key": "Super Famicom"
+        },
+        {
+            "label": "Atari ST/STE",
+            "key": "Atari ST/STE"
+        },
+        {
+            "label": "Apple II",
+            "key": "Apple II"
+        },
+        {
+            "label": "Web browser",
+            "key": "Web browser"
+        },
+        {
+            "label": "Commodore PET",
+            "key": "Commodore PET"
+        },
+        {
+            "label": "TRS-80",
+            "key": "TRS-80"
+        },
+        {
+            "label": "Nintendo DSi",
+            "key": "Nintendo DSi"
+        },
+        {
+            "label": "LaserActive",
+            "key": "LaserActive"
+        },
+        {
+            "label": "Mac",
+            "key": "Mac"
+        },
+        {
+            "label": "Sinclair ZX81",
+            "key": "Sinclair ZX81"
+        },
+        {
+            "label": "Ouya",
+            "key": "Ouya"
+        },
+        {
+            "label": "Nintendo Switch",
+            "key": "Nintendo Switch"
+        },
+        {
+            "label": "Switch",
+            "key": "Switch"
+        }
+    ]
+}

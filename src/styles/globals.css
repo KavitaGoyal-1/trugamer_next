@@ -1,0 +1,806 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper-slide {
+  height: auto;
+}
+
+.no-elicps {
+  max-height: 122px;
+}
+
+@media (max-width: 767px) {
+  .colInSmall {
+    flex-direction: column !important;
+  }
+
+  .colInSmall .subColInSm {
+    width: 100%;
+  }
+}
+.dt-right-auto {
+  right: auto !important;
+  margin-left: -10px !important;
+}
+
+.disabledRadio {
+  cursor: pointer;
+  position: relative;
+  padding-left: 15px;
+  line-height: 24px;
+  left: 8px;
+}
+.disabledRadio span {
+  position: relative;
+  right: 0px;
+}
+.disabledRadio input[type="radio"]:disabled + span::before {
+  border-color: #007bff;
+  background-color: #fff;
+}
+.disabledRadio input[type="radio"]:disabled + span::after {
+  border-color: #007bff;
+  background-color: #007bff;
+}
+
+/* Hide the default radio button */
+.custom-radio {
+  appearance: none;
+  width: 1rem;
+  height: 1rem;
+  border: 1px solid #007bff;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  position: relative;
+  cursor: pointer;
+}
+
+.custom-radio:checked {
+  border-color: #00adff;
+}
+
+.custom-radio:checked::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background-color: #00adff;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.details-gradient::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.25) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  top: 100%; /* Position after the text */
+}
+
+.background_image {
+  background: url("../../public/icons/divider.svg");
+  border: "2px solid red";
+  height: 100vh;
+}
+
+.bgC-img {
+  /* background-image: url('../../public/gameCalender/gamecBg.png'); */
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 9;
+  background-size: cover;
+}
+.bgC-img:after {
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-color: #15182bf2;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  border-radius: 6px;
+}
+
+.related-games-card-container {
+  width: 129px;
+  height: 194px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../public/icons/relatedgames.svg"); /* Path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer; /* Optional: adjust as needed */
+}
+
+/* .swiper-button-prev,
+  .swiper-button-next {
+    display: none !important;
+  } */
+.swiper-button-prev {
+  position: inherit;
+  left: 15px !important;
+}
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  /* width: 0 !important;
+    height: 0 !important;*/
+  font-size: 0 !important;
+  /* font-size: 22px; */
+}
+
+.arrowss .swiper-button-disabled,
+.arrowss .swiper-button-disabled {
+  opacity: 0;
+  cursor: auto;
+  pointer-events: none;
+}
+
+/* .swiper-button-prev, .swiper-button-next {
+    display: flex !important;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 100%;
+  } */
+
+.arrowss svg,
+.arrowss svg path {
+  color: #007aff;
+}
+iframe {
+  /* max-height: 160px; */
+  /* height: 70vh; */
+  width: 100% !important;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 3px; /* Change the width as needed */
+}
+.custom-scroll::-webkit-scrollbar {
+  width: 3px; /* Change the width as needed */
+}
+
+.custom-border {
+  content: "";
+  position: absolute;
+  left: 11.8%;
+  right: 0;
+  height: 35px;
+  width: 0.47px;
+  border: 0.47px solid transparent;
+  border-image-source: linear-gradient(
+    96.29deg,
+    #2659ba -0.78%,
+    #152f60 -0.77%
+  );
+  border-image-slice: 1;
+}
+
+.review_title::first-letter,
+.review_comments::first-letter {
+  text-transform: capitalize;
+}
+
+.hedimg {
+  border: 1px solid #152f60;
+  border-radius: 10px;
+}
+
+.img-filter img {
+  filter: brightness(0) invert(1);
+}
+.checkbox label span {
+  background-color: transparent; /* Default background */
+  transition: background-color 0.2s; /* Smooth transition */
+}
+
+.review-home {
+  background: linear-gradient(
+    110.96deg,
+    rgba(0, 173, 255, 0.21) 0.51%,
+    rgba(217, 217, 217, 0.042) 101.66%
+  );
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.stroke-text {
+  -webkit-text-stroke: 3px #00adff;
+  font-family: sans-serif;
+}
+
+/* Custom CSS to hide scrollbar but keep scrolling */
+.custom-scrollbar {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 0; /* For Chrome, Safari, and Opera */
+}
+
+.scroll-to-wide::-webkit-scrollbar {
+  width: 2px; /* For Chrome, Safari, and Opera */
+}
+.playing-next::-webkit-scrollbar {
+  width: 4px;
+  height: 0px;
+}
+
+.playing-now::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+@keyframes slideDown {
+  from {
+    top: 0;
+  }
+  to {
+    top: 5rem; /* approximately top-20 */
+  }
+}
+
+html:not(.ios) .custom-h::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+
+.box-none .peer:focus ~ .peer-focus\:ring-4 {
+  box-shadow: none;
+}
+
+.custom-h {
+  overflow: auto;
+  max-height: calc(100vh - 286px);
+}
+
+.custom-h {
+  overflow-y: auto; /* Allow vertical scrolling */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  position: relative;
+}
+
+/* Hide only the horizontal scrollbar */
+.custom-h::-webkit-scrollbar {
+  height: 0px; /* Hides the bottom scrollbar */
+}
+
+.custom-h::-webkit-scrollbar:vertical {
+  width: 5px; /* Keep vertical scrollbar visible */
+}
+
+.custom-h::-webkit-scrollbar-thumb {
+  background: #888; /* Style vertical scrollbar */
+  border-radius: 4px;
+}
+
+.custom-h::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.tooltip-arrow {
+  position: absolute;
+  top: -16px; /* Adjust this value to position the arrow */
+  left: 50%;
+  transform: translateX(-50%);
+  border-left: 16px solid transparent;
+  border-right: 16px solid transparent;
+  border-bottom: 18px solid #344054; /* Tooltip background color */
+}
+.group-hover .tooltip-content {
+  display: flex;
+}
+/* Chrome, Safari, Edge, Opera */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+#scrollContainer {
+  scroll-behavior: smooth;
+}
+/* Optional: Add a class for cleaner management */
+.no-arrows::-webkit-inner-spin-button,
+.no-arrows::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.no-arrows {
+  -moz-appearance: textfield;
+}
+.range-slider.margin-lg input[type="range"] {
+  opacity: 0;
+}
+.custom-h table th {
+  position: sticky;
+  top: 0;
+  background: #15182b;
+  z-index: 99;
+}
+.left-side {
+  width: calc(100% - 311px);
+  overflow: hidden;
+  padding-right: 10px;
+  z-index: 9;
+}
+.libary-left {
+  overflow: inherit;
+}
+.right-side {
+  width: 311px;
+  /* overflow: hidden; */
+}
+.checkbox label.checked {
+  color: white; /* Change label color to white */
+}
+
+.checkbox label span {
+  background-color: transparent; /* Default background */
+  transition: background-color 0.2s; /* Smooth transition */
+}
+
+.checkbox input:checked + span {
+  background-color: transparent; /* Checkbox background when checked */
+  border-color: white;
+}
+.checkbox input:checked + span:after {
+  position: absolute;
+  content: "";
+  top: -4px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  transform: rotate(45deg);
+  border: 2px solid;
+  border-top: 0;
+  border-left: 0;
+  width: 6px;
+  height: 10px;
+}
+.checkbox span ~ input:checked {
+  opacity: 1;
+  background-color: transparent;
+}
+.custom-checkbox {
+  text-align: left;
+}
+.custom-checkbox svg path {
+  fill: #596184;
+}
+.lib-custom.custom-checkbox svg path {
+  fill: transparent;
+}
+.custom-checkbox svg.checked path {
+  fill: #fff;
+}
+.custom-checkbox.checked svg path {
+  fill: #fff;
+}
+
+.custom-checkbox.checked img {
+  filter: brightness(3);
+}
+svg.color-change path {
+  fill: #00adff;
+}
+
+.divider-gradiant:after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.25) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.scroll-hide::-webkit-scrollbar {
+  height: 0px;
+}
+
+.pading-rights.scroll-hide::-webkit-scrollbar {
+  height: 0px;
+  width: 0;
+}
+
+.remove-lines span.lines {
+  width: 0;
+}
+
+.hover-cls img {
+  filter: grayscale(100%) brightness(1000%);
+}
+.hover-class:hover img {
+  filter: grayscale(100%) brightness(1000%);
+}
+.hover-class-new img {
+  filter: grayscale(100%) brightness(1000%);
+}
+
+.divider-right:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    /* Change to 180deg for a vertical gradient */ rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.25) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.divider-right:last-child:after {
+  width: 0;
+}
+.divider-right {
+  padding-right: 15px;
+  margin-right: 15px;
+}
+.active-expands {
+  transform: rotate(180deg);
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+  display: none;
+}
+.calder-search .search-cal-none {
+  display: none;
+}
+
+/* For Firefox */
+input[type="search"] {
+  -moz-appearance: textfield; /* Removes the search-specific styles */
+}
+
+.loading .border-current {
+  border-color: rgb(21 24 43);
+  width: 1.6rem;
+  height: 1.6rem;
+  border-right-color: transparent;
+}
+.loder-btn div {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+.line-right:after {
+  content: "";
+  position: absolute;
+  bottom: 12px;
+  right: -20px;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.25) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: translateY(-50%);
+}
+.line-botom:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.25) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: translateY(-50%);
+}
+.active-icon svg path {
+  fill: #fff;
+  color: #fff;
+}
+span.elit-bg {
+  background: radial-gradient(
+    71.88% 71.88% at 32.29% 18.75%,
+    #101325 0%,
+    #07080f 100%
+  );
+}
+.arrowss {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.google-modal button.google-btn {
+  height: 40px;
+  border-radius: 12px;
+  color: #242424;
+}
+.loaderBar {
+  height: 30px;
+  width: 10px;
+  border-radius: 4px;
+  color: #00adff;
+  background: #00adff;
+  position: relative;
+  animation: ht 1s ease-in infinite alternate;
+  box-shadow: 15px 0 0 -1px, -15px 0 0 -1px, 30px 0 0 -2px, -30px 0 0 -2px,
+    45px 0 0 -3px, -45px 0 0 -3px;
+}
+
+@keyframes ht {
+  100% {
+    height: 0px;
+  }
+}
+
+.box-none input:disabled ~ .disabled-input {
+  opacity: 0.5;
+}
+
+.bg-graditant {
+  background: radial-gradient(
+      71.88% 71.88% at 32.29% 18.75%,
+      #101325 0%,
+      #07080f 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+.mobile-res {
+  position: fixed;
+  top: 69px;
+  z-index: 999;
+  background: rgb(9 10 22) !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.game-title-new {
+  padding-left: 140px;
+}
+.open-modals {
+  position: relative;
+  overflow: hidden !important;
+}
+.open-modals .mobile-res.mobile-res-lib {
+  z-index: 1;
+  opacity: 0.2;
+  background-color: transparent !important;
+}
+.mobile-res-lib {
+  top: 80px;
+  z-index: 999 !important;
+  padding-top: 0;
+  width: 100%;
+}
+svg.rc-progress-circle {
+  width: 40px;
+  height: 40px;
+}
+.header-drop {
+  display: none;
+}
+.header-progress .circle-heade:hover ~ .header-drop {
+  opacity: 1;
+  display: block;
+}
+
+.public-profile input:focus ~ .pro-sha {
+  box-shadow: none;
+}
+.fav-game-slider .swiper-wrapper {
+  display: flex;
+  padding: 5px;
+}
+.fav-game-slider {
+  width: 100%;
+  max-width: 100%;
+}
+@media screen and (min-width: 1800px) {
+  .right-side {
+    width: 411px;
+    /* overflow: hidden; */
+  }
+  .left-side {
+    width: calc(100% - 411px);
+    overflow: hidden;
+    padding-right: 10px;
+  }
+
+  .game-title-new {
+    padding-left: 180px;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .right-side {
+    width: 460px;
+    /* overflow: hidden; */
+  }
+  .left-side {
+    width: calc(100% - 460px);
+    overflow: hidden;
+    padding-right: 10px;
+  }
+
+  .game-title-new {
+    padding-left: 200px;
+  }
+  .custom_width {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 2300px) and (min-width: 2000px) {
+  .hows-Works .bg-\[\#21283D\] {
+    margin: 18px 0;
+  }
+}
+
+@media screen and (min-width: 2300px) {
+  .hows-Works {
+    height: calc(100% - 370px);
+  }
+
+  .game-title-new {
+    padding-left: 280px;
+  }
+  .heifht-cls {
+    height: calc(100vh - 360px) !important;
+  }
+
+  .hows-Works img.object-cover.h-28,
+  .hows-Works img.object-cover.h-20.height-cls,
+  .hows-Works img.object-cover.h-11,
+  .hows-Works img.object-cover.h-14,
+  .hows-Works img.object-cover.h-full {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .left-side.libary-left.pading-right {
+    padding-left: 0px;
+  }
+
+  .game-title-new {
+    padding-left: 130px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .libary-left {
+    padding-right: 0;
+  }
+  .left-side {
+    width: 100%;
+    padding-left: 10px;
+  }
+  .left-side.libary-left.pading-right {
+    padding-right: 12px;
+  }
+  .pading-right {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .right-side {
+    width: 100%;
+  }
+
+  .game-title-new {
+    padding-left: 70px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .newRelaes_game .swiper-slide,
+  .newRelaes_game .swiper-slide.swiper-slide-active {
+    width: 160px !important;
+    margin-right: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .left-side.libary-left.pading-right {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .circle-heade svg.rc-progress-circle {
+    width: 30px;
+    height: 30px;
+  }
+  .resp_design {
+    position: sticky;
+    top: 60px;
+    background: #090a16;
+    z-index: 999;
+    padding: 20px 0;
+  }
+  .detail-review_side .swiper-slide {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .stroke-text {
+    font-family: system-ui;
+  }
+
+  .game-title-new {
+    padding-left: 10px;
+  }
+  .mobile-res {
+    position: sticky;
+    top: 70px;
+    z-index: 999;
+    padding-top: 20px;
+    /* background: #0c1220;
+      padding-top: 20px;
+      padding-bottom: 20px; */
+  }
+
+  .mobile-res-lib {
+    top: 72px !important;
+    padding-top: 20px !important;
+  }
+
+  .menucomon {
+    position: fixed;
+    transition: transform 700ms cubic-bezier(0.4, 0, 0.2, 1); /* Smooth transition */
+    z-index: 99999999999;
+  }
+  .mobile-menu-open {
+    overflow: hidden !important;
+  }
+  .mobile-menus {
+    width: 204px;
+    transform: translateX(0); /* Fully visible */
+    left: 0;
+  }
+  .mobile-right {
+    left: 0; /* Slide out of view */
+    width: 204px;
+    /* transform: translateX(-204px);  */
+    transform: translateX(-100%); /* Fully hidden */
+  }
+}
+@media only screen and (max-width: 575px) {
+  .newRelaes_game .swiper-slide,
+  .newRelaes_game .swiper-slide.swiper-slide-active {
+    width: 160px !important;
+    margin-right: 10px !important;
+  }
+}
+
+
